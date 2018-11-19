@@ -1,3 +1,6 @@
+//this file is just an example not a good way to do this.
+//Use Models and inove find, create, remove, etc..
+
 const assert = require('assert');
 
 exports.insertDocument = (db, document, collection, callback) => {

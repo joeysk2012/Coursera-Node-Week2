@@ -1,4 +1,6 @@
-//example app.js used for mongo/mongoose 
+//example app.js used for mongo/mongoose
+//this file is just an example not a good way to do this.
+
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
@@ -90,7 +92,8 @@ const connect = mongoose.connect(mgs_url);
 
 connect.then((db) => {
 
-    console.log('Mongoose Connected correctly to server');
+    console.log('Mongoose Connected correctly to server');//this file is just an example not a good way to do this.
+    //Use Models and inove find, create, remove, etc..
 
     Dishes.create({
         name: 'Uthappizza from mongoose',
